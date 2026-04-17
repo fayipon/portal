@@ -1,0 +1,34 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.yabeng.cn)",
+      "Bash(curl -L --max-time 15 -o \"c:/github/portal/yabeng.cn/index.html\" \"http://www.yabeng.cn/\" -v)",
+      "Bash(curl -L --max-time 15 \"http://www.yabeng.cn/tz.js\")",
+      "Bash(curl -L --max-time 15 -s \"http://ttvk51.mobi/\")",
+      "Bash(wget --mirror --convert-links --adjust-extension --page-requisites --no-parent --timeout=30 --tries=3 -P . \"http://ttvk51.mobi/\")",
+      "Bash(curl --version)",
+      "Bash(curl -L --max-time 15 -s -o \"c:/github/portal/yabeng.cn/tz.js\" \"http://www.yabeng.cn/tz.js\")",
+      "Bash(npm --version)",
+      "Bash(npx serve *)",
+      "Bash(curl -s http://localhost:3000)",
+      "Bash(mkdir -p \"c:/github/portal/jiankangw.net\")",
+      "Bash(curl -L --max-time 20 -s \"https://www.jiankangw.net/\" -o \"c:/github/portal/jiankangw.net/index.html\")",
+      "Bash(curl -s -L --max-time 30 \"http://www.delongdianqi.com/\" -o /tmp/delong_index.html)",
+      "Read(//tmp/**)",
+      "Bash(wget --version)",
+      "Bash(python -c \"import playwright; print\\('playwright ok'\\)\")",
+      "Bash(python -c \"import requests; print\\('requests ok'\\)\")",
+      "Bash(python -c \"import bs4; print\\('bs4 ok'\\)\")",
+      "Bash(pip install *)",
+      "Bash(python -m playwright install chromium)",
+      "Bash(python -c \"from playwright.sync_api import sync_playwright; print\\('ok'\\)\")",
+      "Bash(python scrape.py)",
+      "Bash(npx --version)",
+      "Bash(curl -s -L --max-time 30 \"http://www.27aile.com/\" -o /tmp/27aile_index.html)",
+      "Bash(cmd /c \"rmdir /s /q \\\\\"c:\\\\github\\\\portal\\\\delongdianqi.com\\\\\"\")",
+      "Bash(cmd /c \"rmdir \\\\\"c:\\\\github\\\\portal\\\\delongdianqi.com\\\\\"\")",
+      "Bash(cmd /c \"dir c:\\\\github\\\\portal\")",
+      "Bash(cmd /c \"dir /b c:\\\\github\\\\portal\")"
+    ]
+  }
+}
