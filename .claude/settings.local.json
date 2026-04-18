@@ -28,7 +28,30 @@
       "Bash(cmd /c \"rmdir /s /q \\\\\"c:\\\\github\\\\portal\\\\delongdianqi.com\\\\\"\")",
       "Bash(cmd /c \"rmdir \\\\\"c:\\\\github\\\\portal\\\\delongdianqi.com\\\\\"\")",
       "Bash(cmd /c \"dir c:\\\\github\\\\portal\")",
-      "Bash(cmd /c \"dir /b c:\\\\github\\\\portal\")"
+      "Bash(cmd /c \"dir /b c:\\\\github\\\\portal\")",
+      "Bash(awk 'END {print NR}' \"c:/github/portal/jiankangw.net/index.html\")",
+      "Bash(python -m http.server 8765)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:8765/)",
+      "Bash(grep -oE \".{50}j9[^\\\\\"'<>]{0,30}\" \"c:/github/portal/jiankangw.net/index.html\")",
+      "Bash(grep -ioE \"j9[a-z0-9\\\\u4e00-\\\\u9fa5]{0,10}\" \"c:/github/portal/jiankangw.net/index.html\")",
+      "Bash(grep -oiE \"cmp冠军[^\\\\\"'<>,.、。（\\(]{0,10}|cmp[a-z冠军国际体育]{0,15}\" \"c:/github/portal/jiankangw.net/index.html\")",
+      "Bash(grep -oE \"cmp冠军[体首页登录官网国际娱乐集团]{0,6}\" \"c:/github/portal/jiankangw.net/index.html\")",
+      "Bash(curl -sL -A \"Mozilla/5.0 \\(iPhone; CPU iPhone OS 15_0 like Mac OS X\\) AppleWebKit/605.1.15 \\(KHTML, like Gecko\\) Version/15.0 Mobile/15E148 Safari/604.1\" -o \"c:/github/portal/jiankangw.net/hi98/gg.html\" -w \"HTTP %{http_code} | %{size_download} bytes | %{content_type}\\\\n\" \"https://hi98.cc/gg.html\")",
+      "Bash(curl -s -o /dev/null -w \"gg.html: %{http_code}\\\\n\" http://localhost:8765/hi98/gg.html)",
+      "Bash(curl -s -o /dev/null -w \"static1/css/main.css: %{http_code}\\\\n\" http://localhost:8765/hi98/static1/css/main.css)",
+      "Bash(curl -s -o /dev/null -w \"static1/picture/logo.png: %{http_code}\\\\n\" http://localhost:8765/hi98/static1/picture/logo.png)",
+      "Bash(curl -s -o /dev/null -w \"static1/js/script.js: %{http_code}\\\\n\" http://localhost:8765/hi98/static1/js/script.js)",
+      "Bash(curl -s \"http://localhost:8765/jump.js\")",
+      "Bash(curl -s \"http://localhost:8765/hi98/gg.html\")",
+      "Bash(curl -s \"http://localhost:8765/\")",
+      "Bash(ps -W)",
+      "Bash(awk '{print $1}')",
+      "Bash(xargs -I{} kill {})",
+      "Bash(rm -f \"c:/github/portal/jiankangw.net/_nocache_server.py\")",
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "Bash(curl -s -o /dev/null -w \"server up: %{http_code}\\\\n\" http://localhost:8765/)",
+      "Bash(grep -oE \"\\(n677|九游|j9九游|J9九游\\)[^<]{0,10}\")"
     ]
   }
 }

@@ -1,0 +1,10 @@
+{
+  "name": "jiankangw-local",
+  "private": true,
+  "scripts": {
+    "dev": "http-server . -p 8765 -c-1 --cors -a 127.0.0.1"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}

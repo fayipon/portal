@@ -1,0 +1,9 @@
+  function heji1(){window.open("https://n677.com");}
+    function heji2(){window.open("https://n677.com");}
+      function heji3(){window.open("https://n677.com");}
+        function heji4(){window.open("https://n677.com");}
+                function heji5(){window.open("https://n677.com");}
+                  function heji6(){window.open("https://n677.com");}
+                    function heji7(){window.open("https://n677.com");}
+                      function heji8(){window.open("https://n677.com");}
+                      function heji9(){window.open("https://n677.com");}
