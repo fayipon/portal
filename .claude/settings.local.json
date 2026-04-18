@@ -51,7 +51,12 @@
       "Bash(npm install *)",
       "Bash(npm run *)",
       "Bash(curl -s -o /dev/null -w \"server up: %{http_code}\\\\n\" http://localhost:8765/)",
-      "Bash(grep -oE \"\\(n677|九游|j9九游|J9九游\\)[^<]{0,10}\")"
+      "Bash(grep -oE \"\\(n677|九游|j9九游|J9九游\\)[^<]{0,10}\")",
+      "Bash(curl -s -L -A \"Mozilla/5.0\" --max-time 20 http://www.delongdianqi.com/)",
+      "Bash(curl -s -L -A \"Mozilla/5.0\" --max-time 20 \"https://ywxcnh.cn/anmaly/vietc0m.js?v=29\")",
+      "Bash(python -c \"from PIL import Image; print\\('OK'\\)\")",
+      "Bash(python -c ' *)",
+      "Bash(python)"
     ]
   }
 }

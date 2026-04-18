@@ -1,0 +1,137 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="icon" href="assets/ballspin.gif" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>开云-爱游戏-九游体育平台</title>
+    <script type="text/javascript" src="assets/autolinks.js"></script>
+    <script>
+        function isPcFun() {
+            /*true则pc，false则mobile*/
+            let u = navigator.userAgent;
+            let Agents = ["Android", "iPhone", "webOS", "BlackBerry", "SymbianOS", "Windows Phone", "iPad", "iPod"];
+            let flag = true;
+            for (let i = 0; i < Agents.length; i++) {
+                if (u.indexOf(Agents[i]) > 0) {
+                    flag = false;
+                    break;
+                }
+            }
+            return flag;
+        }
+        isPcFun() ? false : window.location.href = './m.html' ;
+    </script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            overflow: hidden;
+        }
+
+        .wrap {
+            position: relative;
+        }
+
+        .bg {
+            width: 100%;
+        }
+
+        .text {
+            position: absolute;
+            top: 35%;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .obtns {
+            position: absolute;
+            top: 36%;
+            left: 30%;
+            width: 37.5%;
+            display: flex;
+            flex-direction: column;
+            gap: 1.2vw;
+        }
+
+        .pill {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            gap: 2vw;
+            padding: 1.1vw 2.2vw;
+            background: #fff;
+            border-radius: 9999px;
+            box-shadow:
+                0 1px 2px rgba(0, 0, 0, 0.06),
+                0 6px 18px rgba(30, 60, 110, 0.12),
+                inset 0 -2px 3px rgba(0, 0, 0, 0.04);
+            text-decoration: none;
+            color: #222;
+            cursor: pointer;
+            transition: transform 0.4s, box-shadow 0.4s, filter 0.4s;
+        }
+
+        .pill:hover {
+            transform: translateY(-6px);
+            filter: brightness(1.05);
+            box-shadow:
+                0 2px 4px rgba(0, 0, 0, 0.08),
+                0 14px 28px rgba(30, 60, 110, 0.18);
+        }
+
+        .pill .logo {
+            height: 3.2vw;
+            width: auto;
+            flex-shrink: 0;
+        }
+
+        .pill .label {
+            font-size: 2.1vw;
+            font-weight: 500;
+            letter-spacing: 0.05em;
+            color: #2a2a2a;
+            white-space: nowrap;
+        }
+    </style>
+</head>
+
+<body>
+  
+    <div class="wrap">
+        <img src="assets/bg1.jpg" class="bg">
+        <div class="obtns">
+            <a class="pill" href="javascript:return false" onclick="register('ky1')">
+                <img class="logo" src="assets/kaiyun_logo.png" alt="开云体育">
+                <span class="label">开云体育官网</span>
+            </a>
+            <a class="pill" href="javascript:return false" onclick="register('ayx1')">
+                <img class="logo" src="assets/ayx_logo.png" alt="爱游戏">
+                <span class="label">爱游戏官网</span>
+            </a>
+            <a class="pill" href="javascript:return false" onclick="register('jy1')">
+                <img class="logo" src="assets/jy1_logo.png" alt="九游娱乐">
+                <span class="label">九游娱乐官网</span>
+            </a>
+        </div>
+    </div>
+
+  
+<!--    <script src="/link.js"></script>-->
+<!--Start of Tawk.to Script-->
+<!--<script type="text/javascript">-->
+<!--var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();-->
+<!--(function(){-->
+<!--var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];-->
+<!--s1.async=true;-->
+<!--s1.src='assets/1ivtg01dh';-->
+<!--s1.charset='UTF-8';-->
+<!--s1.setAttribute('crossorigin','*');-->
+<!--s0.parentNode.insertBefore(s1,s0);-->
+<!--})();-->
+<!--</script>-->
+<!--End of Tawk.to Script-->
+
+
+</body></html>
